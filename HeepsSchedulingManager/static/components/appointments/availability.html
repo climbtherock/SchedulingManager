@@ -1,0 +1,14 @@
+<h1>Availability</h1>
+<select ng-model="selectedType" ng-options="type.name for type in appointmentTypes"></select>
+<input type="date" ng-model="selectedDate" />
+<button ng-click="getAppointments()" class="btn btn-schedules">Get Availability</button>
+
+<div ng-if="availableAppointments" ng-repeat="appointment in availableAppointments ">
+	<div class="row">
+		<div class="col-sm-12 well appointments-text">
+			<div>{{appointment.time | date:"medium"}}</div>
+			<div>Slots: {{appointment.slotsAvailable}}</div>
+            <span class="pull-right"><button type="button" class="btn schedules-btn" ng-click="scheduleAppointment(appointment)">Schedule</button></span>
+        </div>
+	</div>
+</div>

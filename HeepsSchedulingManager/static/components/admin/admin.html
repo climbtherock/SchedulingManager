@@ -1,0 +1,20 @@
+<div class="row">
+    <div class="col-sm-11">
+        <h1>Employees</h1>
+    </div>
+    <div style="margin-top: 25px;" class="col-sm-1">
+        <button type="button" class="btn schedules-btn" ng-click="addUser()">Add User</button>
+    </div>
+</div>
+<div ng-repeat="employee in employees ">
+	<div class="row">
+		<div class="col-sm-12 well appointments-text">
+			<div>{{employee.username}}</div>
+			<div>{{employee.email}}</div>
+			<div>
+                <span class="pull-right"><button type="button" class="btn schedules-btn">Delete</button></span>
+                <span class="pull-right"><button type="button" class="btn schedules-cancel-btn" >Edit</button></span>
+			</div>
+		</div>
+	</div>
+</div>

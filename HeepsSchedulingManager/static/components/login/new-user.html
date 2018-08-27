@@ -1,0 +1,53 @@
+<div class="text-center" style="padding:50px 0">
+	<div class="logo">Add User</div>
+	<!-- Main Form -->
+	<div class="login-form-1">
+		<form id="register-form" class="text-left" name="registerForm">
+			<div class="login-form-main-message"></div>
+			<div class="main-login-form">
+				<div class="login-group">
+					<div class="form-group">
+						<label for="reg_username" class="sr-only">Email address</label>
+						<input type="text" ng-model="user.username" class="form-control" id="reg_username" name="reg_username" placeholder="username" required>
+					</div>
+					<div class="form-group">
+						<label for="regPassword" class="sr-only">Password</label>
+						<input type="password" ng-model="user.password" class="form-control" id="regPassword" name="regPassword" placeholder="password" required>
+					</div>
+					<div class="form-group">
+						<label for="reg_password_confirm" class="sr-only">Password Confirm</label>
+						<input type="password" ng-model="user.confirmPassword" class="form-control" id="reg_password_confirm"
+							   name="reg_password_confirm"
+							   placeholder="confirm password"
+								required>
+					</div>
+
+					<div class="form-group">
+						<label for="reg_email" class="sr-only">Email</label>
+						<input type="text" ng-model="user.email" class="form-control" id="reg_email" name="reg_email" placeholder="email" required>
+					</div>
+					<div class="form-group">
+						<label for="reg_fullname" class="sr-only">Full Name</label>
+						<input type="text" class="form-control" id="reg_fullname" name="reg_fullname" placeholder="full name" required>
+					</div>
+
+                    <div ng-if="isSuperuser" class="form-group">
+						<label for="acuity_user" class="sr-only">Acuity User Id</label>
+						<input type="text" ng-model="user.acuityID" class="form-control" id="acuity_user" name="acuity_user" placeholder="Acuity User Id">
+					</div>
+
+                    <div ng-if="isSuperuser" class="form-group">
+						<label for="api_key" class="sr-only">Acuity User Id</label>
+						<input type="text" ng-model="user.acuityKey" class="form-control" id="api_key" name="api_key" placeholder="Acuity Api Key">
+					</div>
+
+				</div>
+				<button type="submit" ng-click="registerUser()" class="login-button"><i class="glyphicon glyphicon-chevron-right"></i></button>
+			</div>
+			<div class="etc-login-form">
+				<p>already have an account? <a href="/#/login">login here</a></p>
+			</div>
+		</form>
+	</div>
+	<!-- end:Main Form -->
+</div>

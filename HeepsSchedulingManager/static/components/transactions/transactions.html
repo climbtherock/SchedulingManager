@@ -1,0 +1,15 @@
+<h1>Transactions</h1>
+
+<div ng-repeat="transaction in transactions">
+	<div class="row">
+		<div class="col-sm-12 well appointments-text">
+            <div>{{transaction.firstName}}&nbsp;{{transaction.lastName}}</div>
+            <div>{{transaction.date}}</div>
+            <div>Amount:&nbsp;{{transaction.amountPaid}}</div>
+			<div>
+                <span class="pull-right"><button type="button" class="btn schedules-btn">Refund</button></span>
+                <span class="pull-right"><button type="button" class="btn schedules-cancel-btn" >Charge</button></span>
+			</div>
+		</div>
+	</div>
+</div>

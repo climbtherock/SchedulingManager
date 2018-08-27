@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dabe63ea-6a9a-4901-aa17-1c704e752765" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/HeepsSchedulingManager$authorizations.coverage" NAME="authorizations Coverage Results" MODIFIED="1503523292489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HeepsSchedulingManager/common" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/common/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appointments.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/components/appointments/appointments.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appointments.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/common/appointments.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1344">
+              <caret line="72" column="11" lean-forward="false" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>$location</find>
+      <find>ng-options</find>
+      <find>$location.url</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/html/home.html" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/html/schedule.html" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/html/schedules.html" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/js/cancel-appt-modal-controller.js" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/html/reschedule-appt-modal.html" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/js/reschedule-appt-modal-controller.js" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/html/cancel-appt-modal.html" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/js/schedules-controller.js" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/shared/modalControllers/login-modal-controller.js" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/shared/modalTemplates/login-modal.html" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/css/site.css" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/common/admin.py" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/common/rolesApi.py" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/common/serializers.py" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/common/models.py" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/templates/index-controller.js" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/home/home-controller.js" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/home/home.html" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/HeepsSchedulingManager/settings.py" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/HeepsSchedulingManager/urls.py" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/login/login-controller.js" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/login/new-user.html" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/users/users-service.js" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/schedules/appointments-service.js" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/transactions/transactions-controller.js" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/transactions/transactions.html" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/admin/admin-controller.js" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/index/index-controller.js" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/admin/admin.html" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/login/new-user-controller.js" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/login/login.html" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/login/forgot-password.html" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/login/forgot-password-controller.js" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/common/authorizations.py" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/login/reset-password.html" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/schedules/schedules.html" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/schedules/availability-service.js" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/schedules/add-appointment.html" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/app.js" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/shared/modalControllers/add-appointment-modal-controller.js" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/shared/modalTemplates/add-appointment-modal.html" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/common/urls.py" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/shared/modalControllers/add-appt-modal-controller.js" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/schedules/availability.html" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/templates/index.html" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/schedules/availability-controller.js" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/shared/modalTemplates/reschedule-appt-modal.html" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/schedules/schedules-controller.js" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/common/appointments.py" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/shared/modalControllers/reschedule-appt-modal-controller.js" />
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/components/appointments/appointments.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="365" />
+    <option name="y" value="48" />
+    <option name="width" value="1563" />
+    <option name="height" value="990" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HeepsSchedulingManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeepsSchedulingManager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HeepsSchedulingManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeepsSchedulingManager" type="462c0819:PsiDirectoryNode" />
+              <item name="HeepsSchedulingManager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HeepsSchedulingManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeepsSchedulingManager" type="462c0819:PsiDirectoryNode" />
+              <item name="HeepsSchedulingManager" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HeepsSchedulingManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeepsSchedulingManager" type="462c0819:PsiDirectoryNode" />
+              <item name="HeepsSchedulingManager" type="462c0819:PsiDirectoryNode" />
+              <item name="HeepsSchedulingManager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HeepsSchedulingManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeepsSchedulingManager" type="462c0819:PsiDirectoryNode" />
+              <item name="HeepsSchedulingManager" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HeepsSchedulingManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeepsSchedulingManager" type="462c0819:PsiDirectoryNode" />
+              <item name="HeepsSchedulingManager" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HeepsSchedulingManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeepsSchedulingManager" type="462c0819:PsiDirectoryNode" />
+              <item name="HeepsSchedulingManager" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="appointments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HeepsSchedulingManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeepsSchedulingManager" type="462c0819:PsiDirectoryNode" />
+              <item name="HeepsSchedulingManager" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Keebler\HeepstersProjects\heepsters\HeepsSchedulingManager\HeepsSchedulingManager\static\schedules" />
+      <recent name="C:\Users\Keebler\HeepstersProjects\heepsters\HeepsSchedulingManager\HeepsSchedulingManager\static\shared\modalTemplates" />
+      <recent name="C:\Users\Keebler\HeepstersProjects\heepsters\HeepsSchedulingManager\HeepsSchedulingManager\common\api" />
+      <recent name="C:\Users\Keebler\HeepstersProjects\heepsters\HeepsSchedulingManager\HeepsSchedulingManager\common" />
+      <recent name="C:\Users\Keebler\HeepstersProjects\heepsters\HeepsSchedulingManager\HeepsSchedulingManager\static\home" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.authorizations">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Keebler\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HeepsSchedulingManager" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+    </configuration>
+    <configuration name="authorizations" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HeepsSchedulingManager/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HeepsSchedulingManager" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HeepsSchedulingManager/common/authorizations.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.authorizations" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dabe63ea-6a9a-4901-aa17-1c704e752765" name="Default" comment="" />
+      <created>1502835055469</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1502835055469</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19114584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39955848" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19114584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="9" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/common/authorizations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="59" lean-forward="true" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/common/api.py" />
+    <entry file="file://$USER_HOME$/djangoProjects/djangular/djangular/djangular/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="127" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/djangoProjects/djangular/djangular/djangular/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/html/schedule.html" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/shared/modalTemplates/cancel-appt-modal.html" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/shared/modalTemplates/login-modal.html" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/shared/modalControllers/login-modal-controller.js" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/common/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/css/site.css" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/common/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/common/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/common/rolesApi.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/common/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="61" lean-forward="true" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/common/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/templates/index-controller.js" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/home/home-controller.js" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/home/home.html" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/HeepsSchedulingManager/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="764">
+          <caret line="132" column="33" lean-forward="false" selection-start-line="132" selection-start-column="33" selection-end-line="132" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/users/users-service.js" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/transactions/transactions-controller.js" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/transactions/transactions.html" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/index/index-controller.js" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/admin/admin.html" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/admin/admin-controller.js" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/login/login-controller.js" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/login/forgot-password.html" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/login/forgot-password-controller.js" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/login/reset-password.html" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/HeepsSchedulingManager/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/common/authorizations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/schedules/appointments-service.js" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/schedules/schedules.html" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/login/login.html" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/login/new-user-controller.js" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/login/new-user.html" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/shared/modalTemplates/add-appointment-modal.html" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/schedules/availability-service.js" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/schedules/availability.html" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="92" lean-forward="false" selection-start-line="20" selection-start-column="92" selection-end-line="20" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/schedules/availability-controller.js" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/schedules/schedules-controller.js" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/common/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/shared/modalControllers/add-appt-modal-controller.js" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/common/appointments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1344">
+          <caret line="72" column="11" lean-forward="false" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/shared/modalControllers/cancel-appt-modal-controller.js" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/shared/modalTemplates/reschedule-appt-modal.html" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/shared/modalControllers/reschedule-appt-modal-controller.js" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/components/appointments/appointments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

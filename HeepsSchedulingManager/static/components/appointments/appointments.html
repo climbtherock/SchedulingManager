@@ -1,0 +1,59 @@
+<div>
+	<h1>Manage Schedules</h1>
+	<h1>test</h1>
+	asdfasdfasdf
+</div>
+<div class="row">
+
+
+    <!--<div style="margin-bottom:3px; margin-right:10px;" class="col-sm-1 pull-right">-->
+		<!--<label>Month:</label>-->
+        <!--<select ng-model="selectedMonth" ng-change="filterMonths()" ng-options="month for month in months">-->
+        <!--</select>-->
+    <!--</div>-->
+    <!--<div style="margin-top:35px; margin-right:15px;" class="col-sm-1">-->
+        <!--<select ng-model="selectedDate" ng-options="(appointment.datetime | date: 'hh:mm a') for appointment in appointments">-->
+        <!--</select>-->
+    <!--</div>-->
+    <div class="col-sm-3">
+		<label>Calendar:</label>
+		<select ng-model="selectedCalendar" ng-change="filterCalendar()" ng-options="calendar for calendar in calendars">
+        </select>
+	</div>
+	<div class="col-sm-3">
+		<label>Choose Date:</label>
+		<input type="date" ng-model="selectedDate" ng-change="filterDate()"/>
+	</div>
+	<div class="col-sm-3">
+		<button ng-click="clearFilters()">Clear</button>
+	</div>
+	<div class="col-sm-3">
+		<button class="btn schedules-btn">Available Appointments</button>
+	</div>
+</div>
+
+<div ng-if="loading">Loading data...</div>
+
+<div ng-repeat="appointment in appointments ">
+	<div class="row">
+		<div class="col-sm-12 well appointments-text">
+			<div>{{appointment.type}}</div>
+			<div>{{appointment.firstName}}&nbsp;{{appointment.lastName}}</div>
+			<div>
+				<span>{{appointment.date}}</span>
+				<span>{{appointment.time}}</span>
+				<span class="pull-right"><button type="button" class="btn schedules-cancel-btn" ng-click="cancelAppointment(appointment.id)">Cancel</button></span>
+				<span class="pull-right"><button type="button" class="btn schedules-btn" ng-click="rescheduleAppointment(appointment.id)">Reschedule</button></span>
+			</div>
+			<div style="cursor:pointer;" ng-class="showDetails ? 'glyphicon glyphicon-chevron-up': 'glyphicon glyphicon-chevron-down'" ng-click="showDetails=!showDetails"></div>
+			<span ng-if="showDetails">
+				<div>Calendar: {{appointment.calendar}}</div>
+				<div>Total:&nbsp;{{appointment.price}}</div>
+				<div>Paid:&nbsp;{{appointment.amountPaid}}</div>
+				<div>Phone:&nbsp;{{appointment.phone}}</div>
+				<div>Email:&nbsp;{{appointment.email}}</div>
+				<div>Notes:&nbsp;{{appointment.notes}}</div>
+			</span>
+		</div>
+	</div>
+</div>

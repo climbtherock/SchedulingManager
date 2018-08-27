@@ -1,0 +1,67 @@
+{% load staticfiles %}
+
+<html ng-app="heepsApp">
+    <title>Heepsters Scheduling Manager</title>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+              integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+              crossorigin="anonymous"/>
+        <link rel="stylesheet" href="{% static 'assets/css/site.css' %}"/>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.10.0/ui-bootstrap-tpls.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.6/angular-animate.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.6/angular-touch.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+
+        <script src="{% static 'app.js' %}"></script>
+        <script src="{% static 'components/home/home-controller.js' %}"></script>
+        <script src="{% static 'components/appointments/appointments-service.js' %}"></script>
+        <script src="{% static 'components/appointments/appointments-controller.js' %}"></script>
+        <script src="{% static 'components/appointments/availability-controller.js' %}"></script>
+        <script src="{% static 'components/appointments/availability-service.js' %}"></script>
+        <script src="{% static 'components/login/login-controller.js' %}"></script>
+        <script src="{% static 'components/login/new-user-controller.js' %}"></script>
+        <script src="{% static 'components/login/forgot-password-controller.js' %}"></script>
+        <script src="{% static 'components/shared/modalControllers/cancel-appt-modal-controller.js' %}"></script>
+        <script src="{% static 'components/shared/modalControllers/reschedule-appt-modal-controller.js' %}"></script>
+        <script src="{% static 'components/shared/modalControllers/login-modal-controller.js' %}"></script>
+        <script src="{% static 'components/shared/modalControllers/add-appt-modal-controller.js' %}"></script>
+        <script src="{% static 'components/index/index-controller.js' %}"></script>
+        <script src="{% static 'components/admin/admin-controller.js' %}"></script>
+        <script src="{% static 'components/users/users-service.js' %}"></script>
+        <script src="{% static 'components/transactions/transactions-controller.js' %}"></script>
+
+
+    </head>
+    <body>
+        <header class="header" ng-controller="indexController">
+		    <nav ng-cloak ng-hide="hideNav" class="navbar navbar-default navbar-transparent">
+		    	<div class="container-fluid">
+		    			<ul class="nav navbar-nav">
+		    				<li><a href="/#/home">Home</a></li>
+		    				<li><a href="/#/appointments">Appointments</a></li>
+                            <li><a href="/#/availability">Availability</a></li>
+                            <li ng-if="displayAdmin"><a href="/#/admin">Admin</a></li>
+                            <li><a href="/#/transactions">Transactions</a></li>
+                            <li ng-bind="user.username"></li>
+                            <!--<li>{{username}}</li>-->
+		    			</ul>
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="/#/login">Login</a></li>
+                        </ul>
+				</div>
+			</nav>
+		</header>
+        <div class="container">
+            <ng-view></ng-view>
+        </div>
+    </body>
+</html>
