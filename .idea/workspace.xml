@@ -17,21 +17,11 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/common/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="273">
               <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="appointments.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/components/appointments/appointments.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -44,6 +34,36 @@
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reschedule-appt-modal.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/shared/modalTemplates/reschedule-appt-modal.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="43" lean-forward="false" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="availability-controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/schedules/availability-controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1512">
+              <caret line="72" column="4" lean-forward="false" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reschedule-appt-modal-controller.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/shared/modalControllers/reschedule-appt-modal-controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -70,6 +90,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/HeepsSchedulingManager/common/views.py" />
         <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/html/home.html" />
         <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/html/schedule.html" />
         <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/html/schedules.html" />
@@ -120,7 +141,6 @@
         <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/schedules/schedules-controller.js" />
         <option value="$PROJECT_DIR$/HeepsSchedulingManager/common/appointments.py" />
         <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/shared/modalControllers/reschedule-appt-modal-controller.js" />
-        <option value="$PROJECT_DIR$/HeepsSchedulingManager/static/components/appointments/appointments.html" />
       </list>
     </option>
   </component>
@@ -158,6 +178,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,15 +215,37 @@
               <item name="HeepsSchedulingManager" type="462c0819:PsiDirectoryNode" />
               <item name="HeepsSchedulingManager" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HeepsSchedulingManager" type="b2602c69:ProjectViewProjectNode" />
               <item name="HeepsSchedulingManager" type="462c0819:PsiDirectoryNode" />
               <item name="HeepsSchedulingManager" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="appointments" type="462c0819:PsiDirectoryNode" />
+              <item name="schedules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HeepsSchedulingManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeepsSchedulingManager" type="462c0819:PsiDirectoryNode" />
+              <item name="HeepsSchedulingManager" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HeepsSchedulingManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeepsSchedulingManager" type="462c0819:PsiDirectoryNode" />
+              <item name="HeepsSchedulingManager" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+              <item name="modalControllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HeepsSchedulingManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HeepsSchedulingManager" type="462c0819:PsiDirectoryNode" />
+              <item name="HeepsSchedulingManager" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+              <item name="modalTemplates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HeepsSchedulingManager" type="b2602c69:ProjectViewProjectNode" />
@@ -213,13 +257,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/djangoProjects/djangular" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -368,6 +410,13 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/common/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/common/authorizations.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -391,9 +440,27 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/html/schedule.html" />
-    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/shared/modalTemplates/cancel-appt-modal.html" />
-    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/shared/modalTemplates/login-modal.html" />
-    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/shared/modalControllers/login-modal-controller.js" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/shared/modalTemplates/cancel-appt-modal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/shared/modalTemplates/login-modal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/shared/modalControllers/login-modal-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/common/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -401,7 +468,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/css/site.css" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/css/site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="287" column="1" lean-forward="false" selection-start-line="287" selection-start-column="1" selection-end-line="287" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/common/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -439,8 +512,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/templates/index-controller.js" />
-    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/home/home-controller.js" />
-    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/home/home.html" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/home/home-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/HeepsSchedulingManager/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="764">
@@ -448,16 +533,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/users/users-service.js" />
-    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/transactions/transactions-controller.js" />
-    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/transactions/transactions.html" />
-    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/index/index-controller.js" />
-    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/admin/admin.html" />
-    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/admin/admin-controller.js" />
-    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/login/login-controller.js" />
-    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/login/forgot-password.html" />
-    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/login/forgot-password-controller.js" />
-    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/login/reset-password.html" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/users/users-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/transactions/transactions-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="53" lean-forward="false" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/transactions/transactions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/index/index-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="56" lean-forward="false" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/admin/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/admin/admin-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/login/login-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/login/forgot-password.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/login/forgot-password-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/login/reset-password.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="36" lean-forward="false" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/HeepsSchedulingManager/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -472,8 +617,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/schedules/appointments-service.js" />
-    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/schedules/schedules.html" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/schedules/appointments-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="11" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/schedules/schedules.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="41" column="164" lean-forward="false" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="164" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -481,12 +638,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/login/login.html" />
-    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/login/new-user-controller.js" />
-    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/login/new-user.html" />
-    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/shared/modalTemplates/add-appointment-modal.html" />
-    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/schedules/availability-service.js" />
-    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/schedules/availability.html" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="74" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/login/new-user-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/login/new-user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="24" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/shared/modalTemplates/add-appointment-modal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/schedules/availability-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="true" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/schedules/availability.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -494,11 +687,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/schedules/availability-controller.js" />
-    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/schedules/schedules-controller.js" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/schedules/availability-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="72" column="4" lean-forward="false" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/schedules/schedules-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="83" column="24" lean-forward="false" selection-start-line="83" selection-start-column="24" selection-end-line="85" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/common/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="273">
           <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
@@ -506,7 +712,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/shared/modalControllers/add-appt-modal-controller.js" />
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/shared/modalControllers/add-appt-modal-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="55" lean-forward="true" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/common/appointments.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1344">
@@ -517,13 +729,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/shared/modalControllers/cancel-appt-modal-controller.js" />
-    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/shared/modalTemplates/reschedule-appt-modal.html" />
-    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/shared/modalControllers/reschedule-appt-modal-controller.js" />
-    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/components/appointments/appointments.html">
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/shared/modalControllers/cancel-appt-modal-controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/shared/modalTemplates/reschedule-appt-modal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="43" lean-forward="false" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HeepsSchedulingManager/static/shared/modalControllers/reschedule-appt-modal-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
           <folding />
         </state>
       </provider>

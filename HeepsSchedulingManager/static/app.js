@@ -1,5 +1,5 @@
 (function(){
-    angular.module('heepsApp',['ngRoute', 'ui.bootstrap'])
+    angular.module('heepsApp',['ngRoute', 'ui.bootstrap', 'ui.calendar'])
         .config(['$routeProvider',config])
         .run(['$http',run])
 
@@ -39,6 +39,14 @@
         })
         .when('/reset_password',{
             templateUrl: 'static/components/login/reset-password.html'
+        })
+        .when('/schedules',{
+            templateUrl: 'static/components/schedules/manage.html',
+            controller: 'manageController'
+        })
+        .when('/calendar_view',{
+            templateUrl: 'static/components/appointments/calendar-view.html',
+            controller: 'calendarViewController'
         })
         .otherwise('/');
     }

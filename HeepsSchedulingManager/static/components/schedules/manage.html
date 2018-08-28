@@ -1,0 +1,77 @@
+<div>
+	<h1>Manage Schedules</h1>
+</div>
+
+<div class="row">
+    
+    <div class="col-sm-2">
+        <button class="btn schedules-btn" ng-click="showBlockForm = !showBlockForm">Create Time Block</button>
+    </div>
+
+    <div class="col-sm-2">
+        <button class="btn schedules-btn" ng-click="getBlocks()">Show Blocks</button>
+    </div>
+
+    <div class="col-sm-2">
+        <button class="btn schedules-btn" ng-click="requestNewType()">Request New Type</button>
+    </div>
+
+    <div class="col-sm-2">
+            <button class="btn schedules-btn" ng-click="requestNewCalendar()">Request New Calendar</button>
+        </div>
+</div>
+
+<div ng-if="showBlockForm">
+    <form >
+        <label>Start</label>
+        <br>
+        <input type="date" ng-model="block.start" />
+        <br>
+
+        <label>Start Time</label>
+        <br>
+        <input type="time" ng-model="block.startTime" />
+        <br>
+
+        <label>End</label>
+        <br>
+        <input type="date" ng-model="block.end" />
+        <br>
+
+        <label>End Time</label>
+        <br>
+        <input type="time" ng-model="block.endTime" />
+        <br>
+
+        <label>Calendar</label>
+        <br>
+        <select ng-model="block.calendar" ng-options="c.name for c in calendars"></select>
+        <br>
+
+        <label>Notes</label>
+        <br>
+        <textarea ng-model="block.notes" name="notes" id="notes" cols="30" rows="10"></textarea>
+        <br>
+
+        <button ng-click="save(block)">Save</button>
+
+    </form>
+</div>
+
+<div ng-if="showBlocks">
+    <div ng-repeat="block in blocks">
+            <div class="row">
+                <div class="col-sm-12 well appointments-text">
+                    <div>{{block.calendarName}}</div>
+                    <div>{{block.description}}</div>
+                    <div>
+                        <span class="pull-right">
+                            <button type="button" class="btn schedules-btn" ng-click="delete(block.id)">Delete</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+
+<div></div>

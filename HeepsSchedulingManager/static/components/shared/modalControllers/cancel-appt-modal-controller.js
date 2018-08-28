@@ -5,7 +5,7 @@
 
         function cancelApptModalController($scope, $uibModalInstance, $http, appointment_id){
             $scope.ok = function(){
-                var cancelUrl = "http://localhost:8000/api/appointments/" + appointment_id +"/cancel/"
+                var cancelUrl = "api/appointments/" + appointment_id +"/cancel/"
                 $http({
                     method: 'PUT',
                     url: cancelUrl,

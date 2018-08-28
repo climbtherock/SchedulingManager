@@ -17,6 +17,7 @@ class Profile(models.Model):
     role = models.CharField(null=True, blank=True, max_length=50)
     acuityID = models.CharField(max_length=50, null=True)
     acuityKey = models.CharField(max_length=200, null=True)
+    stripeKey = models.CharField(max_length=200, null=True)
 
     @receiver(post_save, sender=User)
     def create_user_profile(sender, instance, created, **kwargs):

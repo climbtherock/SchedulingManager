@@ -1,7 +1,5 @@
 <div>
-	<h1>Manage Schedules</h1>
-	<h1>test</h1>
-	asdfasdfasdf
+	<h1>Appointments</h1>
 </div>
 <div class="row">
 
@@ -24,15 +22,16 @@
 		<label>Choose Date:</label>
 		<input type="date" ng-model="selectedDate" ng-change="filterDate()"/>
 	</div>
-	<div class="col-sm-3">
+	<div class="col-sm-2">
 		<button ng-click="clearFilters()">Clear</button>
 	</div>
-	<div class="col-sm-3">
-		<button class="btn schedules-btn">Available Appointments</button>
+	<div class="col-sm-2">
+		<button class="btn schedules-btn" ng-click="scheduleNewAppointment()">Schedule New Appointment</button>
 	</div>
+	<div class="col-sm-2">
+			<a href="/#/calendar_view"><button class="btn schedules-btn">Calendar View</button></a>
+		</div>
 </div>
-
-<div ng-if="loading">Loading data...</div>
 
 <div ng-repeat="appointment in appointments ">
 	<div class="row">
@@ -43,7 +42,7 @@
 				<span>{{appointment.date}}</span>
 				<span>{{appointment.time}}</span>
 				<span class="pull-right"><button type="button" class="btn schedules-cancel-btn" ng-click="cancelAppointment(appointment.id)">Cancel</button></span>
-				<span class="pull-right"><button type="button" class="btn schedules-btn" ng-click="rescheduleAppointment(appointment.id)">Reschedule</button></span>
+				<span class="pull-right"><button type="button" class="btn schedules-btn" ng-click="rescheduleAppointment(appointment)">Reschedule</button></span>
 			</div>
 			<div style="cursor:pointer;" ng-class="showDetails ? 'glyphicon glyphicon-chevron-up': 'glyphicon glyphicon-chevron-down'" ng-click="showDetails=!showDetails"></div>
 			<span ng-if="showDetails">

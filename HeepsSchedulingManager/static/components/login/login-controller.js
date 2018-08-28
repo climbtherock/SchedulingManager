@@ -21,7 +21,7 @@
             }
 
             $scope.loginUser = function(){
-                $http.post('http://localhost:8000/api/users/login/', $scope.user)
+                $http.post('api/users/login/', $scope.user)
                 .then(function(){
                     $location.url('/');
                 },function(){
@@ -30,7 +30,7 @@
             }
 
             $scope.logout = function () {
-                $http.get('http://localhost:8000/api/users/logout/')
+                $http.get('api/users/logout/')
                     .then(function(){
                         $location.url('/login');
                     })

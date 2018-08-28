@@ -1,33 +1,23 @@
 (function(){
     angular.module('heepsApp')
         .controller('appointmentsController',
-                ['$scope','$http','$uibModal','Appointments',appointmentsController])
+                ['$scope','$http','$uibModal','Appointments','$location',appointmentsController])
 
-        function appointmentsController($scope, $http, $uibModal,Appointments){
+        function appointmentsController($scope, $http, $uibModal,Appointments, $location){
 
-            $scope.months = ['June','July','August','September','October'];
-            // $scope.calendars = ['Hipa', 'Alan Whitaker']
+            $scope.filterDate = filterDate;
+
             init();
+
 
             function init(){
                 _getAppointments();
                 $scope.showDetails = false;
             }
 
-            function _getAppointments(){
-                $scope.loading = true;
-                
-                Appointments.get()
-                .then(function(response){
-                    $scope.appointments = response.data;
-                    $scope.loading = false;
-                    $scope.masterAppointments = angular.copy($scope.appointments);
-                    getCalendarDropdowns(response.data)
-                })
-            }
-
             $scope.clearFilters = function(){
                 $scope.appointments = $scope.masterAppointments;
+                initializeDateFilter();
             }
 
             $scope.filterMonths = function(){
@@ -40,12 +30,14 @@
                 $scope.appointments = appointments;
             }
 
-            $scope.filterDate = function(){
-                var day = new Date($scope.selectedDate).getDay();
+            function filterDate(){
+                var day = new Date($scope.selectedDate);
                 var appointments = []
+                
                 angular.forEach($scope.masterAppointments, function(appointment){
-                        var apptDay = new Date(appointment.datetime).getDay()
-                        if(day === apptDay){
+                        var apptDay = new Date(appointment.datetime)
+                        
+                        if(day.toDateString() === apptDay.toDateString()){
                             appointments.push(appointment);
                         }
                     })
@@ -63,6 +55,7 @@
             }
 
             $scope.cancelAppointment = function(appointment_id){
+                
                 var modalInstance = $uibModal.open({
                             animation: true,
                             ariaLabelledBy: 'modal-title',
@@ -73,17 +66,38 @@
 	                    	    appointment_id : appointment_id
 	                        }
                         })
-	  	    }
+            }
 
-	  	    $scope.rescheduleAppointment = function(appointment_id){
+            $scope.scheduleNewAppointment = function(){
+                var modalInstance = $uibModal.open({
+                    animation: true,
+                  ariaLabelledBy: 'modal-title',
+                  ariaDescribedBy: 'modal-body',
+                  templateUrl: 'static/components/shared/modalTemplates/reschedule-appt-modal.html',
+                  controller: 'availabilityController',
+                  windowClass: 'reschedule-modal',
+                  resolve: {
+                      appointment : null
+                  }
+              })
+            }
+
+	  	    $scope.rescheduleAppointment = function(appointment){
+                if(new Date(appointment.datetime) < new Date()){
+                    alert('must select current date or later')
+                    return
+                }
+                Appointments.setApptUser(appointment)
 	  		    var modalInstance = $uibModal.open({
 	  					animation: true,
 				        ariaLabelledBy: 'modal-title',
 				        ariaDescribedBy: 'modal-body',
 	                    templateUrl: 'static/components/shared/modalTemplates/reschedule-appt-modal.html',
-                        controller: 'rescheduleApptModalController',
+                        controller: 'availabilityController',
+                        windowClass: 'reschedule-modal',
 	                    resolve: {
-	                    	appointment_id : appointment_id
+                            appointment : appointment,
+                            
 	                    }
 	                })
 	  	    }
@@ -98,5 +112,21 @@
 
                 $scope.calendars = calendars;
             }
+
+            function _getAppointments(){
+                Appointments.get()
+                .then(function(response){
+                    $scope.appointments = response.data;
+                    $scope.masterAppointments = angular.copy($scope.appointments);
+                    getCalendarDropdowns(response.data)
+                    initializeDateFilter()
+                })
+            }
+
+            function initializeDateFilter(){
+                $scope.selectedDate = new Date()
+                $scope.filterDate()
+            }
+
         }
 })()

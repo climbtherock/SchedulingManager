@@ -5,6 +5,8 @@
 
         function addApptModalController($scope, $uibModalInstance, $http, appointment, type){
             $scope.ok = function(){
+                console.log($scope.user);
+                console.log(appointment)
 
                 var appointmentDetails = {
                     "datetime": appointment.time,
@@ -13,7 +15,6 @@
                     "lastName": $scope.user.lastName,
                     "email": $scope.user.email
                 }
-
                 $http.post('api/appointments/',appointmentDetails)
                     .then(function(response){
                         console.log(response.data)
@@ -24,6 +25,5 @@
             $scope.cancel = function(){
                 $uibModalInstance.dismiss();
             }
-
         }
 })()

@@ -1,17 +1,45 @@
-<h2 class="text-center">Choose date to Reschedule</h2>
+<!-- <h2 class="text-center">Choose date to Reschedule</h2>
 <div class="text-center">
 	<input ng-model="selectedDate" type="date"/>
 	<button ng-click="changeDate()">Confirm</button>
 	<button ng-click="cancel()">Cancel</button>
+</div> -->
+
+<h1>Availability</h1>
+<select ng-model="selectedType" ng-options="type.name for type in appointmentTypes"></select>
+<input type="date" ng-model="selectedDate" />
+<label>Calendar</label>
+<select ng-model="selectedCalendar" ng-options="c.name for c in calendars"></select>
+
+<button ng-click="getAppointments()" class="btn btn-schedules">Get Availability</button>
+
+
+<div class="row">
+	<div ng-if="availableAppointments" ng-repeat="weekDay in weekDates">
+		<div class="col-sm-2"><strong>{{weekDay}}</strong></div>
+	</div>
 </div>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+
+	<div class="row">
+		
+		<div ng-if="availableAppointments" ng-repeat="day in weekTimes">
+			<div class="col-sm-2">
+				<div ng-repeat="time in day">
+					<div ng-click="scheduleAppointment(time)" style="cursor:pointer;" class="well appointments-text">
+						{{time.time | date:"hh:mm a"}}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- <div ng-if="availableAppointments" ng-repeat="appointment in availableAppointments ">
+		<div class="row">
+			<div class="col-sm-12 well appointments-text">
+				<div>{{appointment.time | date:"medium"}}</div>
+				<div>Slots: {{appointment.slotsAvailable}}</div>
+				<span class="pull-right"><button type="button" class="btn schedules-btn" ng-click="scheduleAppointment(appointment)">Schedule</button></span>
+			</div>
+		</div>
+	</div> -->
+	<!-- <span class="pull-right"><button type="button" class="btn schedules-btn" ng-click="scheduleAppointment(appointment)">Schedule</button></span> -->
